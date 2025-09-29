@@ -1,0 +1,69 @@
+/* Skills Page Specific Styles */
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* center heading and boxes */
+    padding: 15px 20px;
+    /* compact padding */
+    text-align: center;
+    margin: 0;
+}
+
+#skills h2 {
+    font-size: 32px;
+    color: #00ffe0;
+    margin-bottom: 20px;
+    /* small space between heading and boxes */
+}
+
+/* Skills Container */
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    /* stack boxes vertically */
+    align-items: center;
+    /* center each box horizontally */
+    justify-content: center;
+    /* ensures true centering */
+    gap: 25px;
+    /* space between boxes */
+    width: auto;
+    /* adjust to content */
+    margin: 0 auto;
+    /* center container in section */
+}
+
+/* Individual Skill Box */
+.skill {
+    background: #111;
+    color: #00ffe0;
+    padding: 30px 80px;
+    /* bigger width and height */
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.skill:hover {
+    background: #00cfcf;
+    color: #111;
+    transform: translateY(3px);
+    box-shadow: 0 8px 15px rgba(0, 255, 224, 0.4);
+}
+
+/* Footer */
+footer {
+    margin-top: 0;
+    padding: 15px;
+    text-align: center;
+    background: #111;
+    color: #777;
+    border-top: 2px solid #00ffe0;
+}

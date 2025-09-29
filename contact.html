@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mahammed Sinan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-container">
+            <h1 class="logo">Mahammed Sinan</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container section">
+            <h2>Contact Me</h2>
+            <p>If you’d like to get in touch, feel free to drop a message. I’m always open to new projects and
+                collaborations.</p>
+
+            <!-- Contact Form using Web3Forms -->
+        <!-- Contact Form using Web3Forms -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+        
+            <!-- REQUIRED ACCESS KEY -->
+            <input type="hidden" name="access_key" value="6fa029ab-8ae6-4db5-b6fe-d50cc8f6559d">
+        
+            <!-- REDIRECT to your success page after submit -->
+            <input type="hidden" name="redirect" value="sucess.html"> <!-- make sure file name matches exactly -->
+        
+            <!-- These fields will appear in your email -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number (optional)" pattern="[0-9]{10}">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+        
+            <!-- Correct submit button (no <a> inside) -->
+            <button type="submit">Send Message</button>
+        </form>
+
+            <p class="note">* Fields marked required must be filled. Phone number should be 10 digits.</p>
+
+            <!-- Social Links -->
+            <div class="social-media">
+                <a
+                    href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BI4PiodmzRhGJhsOcLkzxaw%3D%3D ">LinkedIn</a>
+                <a href="https://github.com/sinan-mh79">GitHub</a>
+                <a href="https://www.instagram.com/mh_sinan_01/?next=%2F">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2025 Mahammed Sinan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
